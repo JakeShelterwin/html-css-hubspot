@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* tolgo alle liste non ordinate in html il pallino */
+  list-style: none;
+}
+
+/* ****************************************************************************************** */
+/* *************************** ROBA VALIDA IN TUTTO IL DOCUMENTO **************************** */
+/* ************************* O CHE SI RIPETE, FACILE DA RIPESCARE**************************** */
+/* ******************************************************************************************* */
+
+/* .clearfix{
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+body {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  color: #33475b;
+}
+
+.titoloSezione{
+  font-size: 45px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.testoSezione{
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.bottoneArancioneGrande{
+  background-color: #ff7a59;;
+  color: white;
+  font-size: 18px;
+  /* il primo valore indiga il padding top e bottom il secondo left e right */
+  padding: 25px 40px;
+  border-color: rgba(255, 0, 0, 0);
+  border-radius: 3px;
+  margin-top: 22px;
+}
+
+/* ******************************************************************************************* */
+/* ******************************** SEZIONE SOTTO HEADER   *********************************** */
+/* ******************************************************************************************* */
+
+.sezioneSottoHeader{
+  /* questa è l'altezza per contenere con le giuste proporzioni l'immagine di background */
+  height: 750px;
+  width: 100%;
+  position: relative;
+}
+
+/* le successive 4 classi gestiscono lo sfondo che allunga dinamicamente l'immagine di background */
+.rosaCieloLeft {
+  height: 671px;
+  width: 50%;
+  background-color: #fdf2f0;
+  border-bottom: 3.4px solid #3b455e;
+  left: 0;
+  position: absolute;
+}
+
+.rosaCieloRight {
+  height: 604px;
+  width: 50%;
+  background-color: #fdf2f0;
+  border-bottom: 3px solid #3b455e;
+  left: 50%;
+  position: absolute;
+}
+
+.pratoLeft {
+  height: 79px;
+  width: 50%;
+  top: 671px;
+  background-color: #b3e5e1;
+  border-bottom: 3.4px solid #3b455e;
+  left:0;
+  position:absolute;
+}
+
+.pratoRight {
+  height: 146px;
+  width: 50%;
+  background-color: #00a48d;
+  border-bottom: 3px solid #3b455e;
+  left: 50%;
+  top: 604px;
+  position: absolute;
+}
+
+/* Gestisce l'immagine di sfondo della sezione sotto l'header */
+ .backgroundSottoHeader{
+  width: 1240px;
+  height: 100%;
+  left: 23%;
+  background-image: url(img/jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+
+/* Gestisce il Testo della  sezione sotto l'header */
+.testoSovrappostoImmagine{
+  width: 420px;
+  top: 10%;
+  left: 17%;
+  position: absolute;
+}
+
+.testoSottoBottone{
+  margin-top: 22px;
+  font-size: 14px;
+  font-weight: bold;
+  width: 270px;
+}
