@@ -57,7 +57,7 @@ a {
   margin-top: 22px;
 }
 
-.bottoneArancionePiccolo{
+.bottoneArancioneMedio{
   background-color: #ff7a59;
   color: white;
   font-size: 13px;
@@ -141,6 +141,15 @@ a {
   border-radius: 4px;
 }
 
+.bottoneArancionePiccolo{
+  background-color: #ff7a59;
+  color: white;
+  font-size: 13px;
+  /* il primo valore indiga il padding top e bottom il secondo left e right */
+  padding: 12.5px 15px;
+  border-color: rgba(255, 0, 0, 0);
+  border-radius: 3px;
+}
 
 /* ******************************************************************************************* */
 /* ******************************** HEADER   *********************************** */
