@@ -157,8 +157,8 @@ a {
   width: 62px;
   background-image: url(img/fixedbottom.png);
   background-size: cover;
-  top: 90vh;
-  left: 91.3vw;
+  top: 92%;
+  left: 93%;
   position: fixed;
   z-index: 98;
 }
@@ -276,4 +276,158 @@ header nav ul li {
   font-weight: bold;
   line-height: 1.8;
   width: 270px;
+}
+
+/* ******************************************************************************************* */
+/* ******************************** SEZIONE PRINCIPALE   *********************************** */
+/* ******************************************************************************************* */
+
+.sezionePrincipale{
+  background-color: #f5f8fa;
+}
+
+.containerSezionePrincipale{
+  width:70%;
+  margin-left: 15%;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  /* debug */
+  /* background-color: red; */
+}
+
+/* gestisce l'immagine del cubo tipo rubik */
+.containerSezionePrincipale .cubetto {
+  display: block;
+  height: 195px;
+  width: 260px;
+  margin: auto;
+}
+
+.containerTesto{
+  width: 760px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.containerTesto .titoloSezione{
+  font-size: 35px;
+  padding-bottom: 25px;
+}
+
+/* riquadro bianco orizzontale */
+.freeHubSpotCRM{
+  width: 95%;
+  margin-left: 2.5%;
+  background-color: white;
+  margin-bottom: 3%;
+  /* debug */
+  /* border: solid black 1px; */
+}
+
+.freeHubSpotCRM-IMGeBottone {
+  float: left;
+  /* gestisce anche la dimensione dell'immagine visto che è un svg */
+  width:20%;
+  /* prima altezza poi larghezza */
+  margin-top: 4%;
+  margin-bottom: 3.5%;
+  margin-left: 7%;
+  margin-right: 3%;
+  /* Debug */
+  /* background-color: red; */
+}
+
+.freeHubSpotCRM-IMGeBottone .bottoneArancioneMedio{
+  float: left;
+  margin-top: 15%;
+  margin-left: 19%;
+}
+
+/* Blocco a destra del libro multimediale e bottone Get Free CRM arancione*/
+.bloccoDestroSezione{
+  width: 62%;
+  margin-top: 4%;
+  margin-left: 4%;
+  float: left;
+  /* background-color: yellow; */
+}
+.bloccoDestroSezione .titoloSezione{
+  margin-top: 2.5%;
+  font-size: 22px;
+  margin-bottom: 1%;
+}
+.bloccoDestroSezione .testoSezione{
+  font-size: 12.5px;
+  margin-bottom: 5%;
+}
+
+/* serve solo per aggiungere la decorazione accanto a Popular Features */
+.soloPerBordo{
+  display: inline;
+  width: 70%;
+  border-bottom: 1px solid #e0e6ed;
+  float: right;
+  margin-top: 9px;
+  margin-right: 15px;
+}
+/* colora le spunte d'arancione */
+.fas.fa-check-circle{
+  color: #ff7a59;
+  margin-right: 1%;
+}
+
+/* SEZIONE 3 COLONNINE BIANCHE  */
+.container3Colonnine{
+  width: 95%;
+  margin-left: 2.5%;
+  /* debug */
+  /* border: solid black 1px; */
+}
+
+.colonna{
+  display: inline-block;
+  width: 31%;
+  height: 400px;
+  background-color: white;
+
+
+}
+
+.colonna img{
+  display: block;
+  width: 40%;
+  height: 262.8px;
+  margin-left: 30%;
+  float: left;
+}
+
+.colonnaCentrale{
+  display: inline-block;
+  width: 31%;
+  height: 400px;
+  background-color: white;
+  margin-left: 3.0%;
+  margin-right: 3.0%;
+
+}
+
+.colonnaCentrale img{
+  display: block;
+  width: 50%;
+  height: 262.8px;
+  margin-left: 25%;
+  float: left;
+}
+
+.ripienoColonna{
+  float: left;
+  width: 70%;
+  margin-left: 15%;
+  background-color: red;
+
+}
+
+/* SEZIONE LEARN */
+.sezioneLearn{
+  background-image: linear-gradient(45deg, #00a4bd, #00bda5)
 }
