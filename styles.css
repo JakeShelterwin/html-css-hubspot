@@ -151,6 +151,29 @@ a {
   border-radius: 3px;
 }
 
+/* cerchietto fixed in absolute*/
+.hubBotFixed{
+  height: 67px;
+  width: 67px;
+  background-image: url(img/fixedbottom.png);
+  background-size: cover;
+  top: 91%;
+  left: 95%;
+  position: fixed;
+  z-index: 98;
+}
+
+.hubBotFixed:hover{
+  height: 250px;
+  width: 250px;
+  background-image: url(img/fixedbottomhover.png);
+  background-size: contain;
+  top: 71.6%;
+  left: 83.85%;
+  position: fixed;
+  z-index: 99;
+}
+
 /* ******************************************************************************************* */
 /* ******************************** HEADER   *********************************** */
 /* ******************************************************************************************* */
