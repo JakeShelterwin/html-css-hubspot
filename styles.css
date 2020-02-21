@@ -58,6 +58,8 @@ body {
   height: 84px;
   border-bottom: 1px solid black;
   position: fixed;
+  /* dico alla barra barraFissaTop di stare sopra a ogni elemento della pagina con valore z index minore di 99 */
+  z-index: 99;
 }
 
 /* ******************************************************************************************* */
@@ -80,6 +82,9 @@ header{
   height: 750px;
   width: 100%;
   position: relative;
+  /* necessario perché i figli di sezioneSottoHeader hanno position absolute
+   e se non specificato coprono il position fixed */
+  z-index: 1;
 }
 
 /* le successive 4 classi gestiscono lo sfondo che allunga dinamicamente l'immagine di background */
