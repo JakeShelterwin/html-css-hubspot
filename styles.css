@@ -431,3 +431,34 @@ header nav ul li {
 .sezioneLearn{
   background-image: linear-gradient(45deg, #00a4bd, #00bda5)
 }
+
+.containerSezioneLearn{
+  width:70%;
+  margin-left: 15%;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  text-align: center;
+  color: white;
+}
+
+.testoSezioneLearn{
+  width: 70%;
+  margin-left: 15%;
+}
+
+.titoloBianco{
+  font-size: 35px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.paragrafoBianco{
+  font-size: 17.5px;
+  line-height: 1.8;
+
+}
+
+.grigliaLearn{
+  width: 25%;
+  float: left;
+}
