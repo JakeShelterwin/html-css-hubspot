@@ -68,7 +68,7 @@ a {
 }
 
 /* ******************************************************************************************* */
-/* ******************************** SEZIONE FIXED   *********************************** */
+/* ******************************** SEZIONE FIXED e Cerchietto FIXED ************************* */
 /* ******************************************************************************************* */
 
 .barraFissaTop{
@@ -158,7 +158,7 @@ a {
 header{
   /* serve perché barraFissaTop è in position fixed e esce dal flusso , allontano l'header della sua altezza*/
   margin-top: 84px;
-  /* imposto height, per gli elementi al suo interno non sono sufficienti per impostare l'altezza giusta */
+  /* imposto height, perché gli elementi al suo interno non bastano a impostare l'altezza giusta */
   height: 91px;
   /* se non aggiungo la width il clearfix sballa le dimensioni */
   width: 100%;
