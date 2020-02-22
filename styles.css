@@ -164,7 +164,7 @@ a {
 }
 
 /* ******************************************************************************************* */
-/* ******************************** HEADER   *********************************** */
+/* ******************************************* HEADER **************************************** */
 /* ******************************************************************************************* */
 
 header{
@@ -279,7 +279,7 @@ header nav ul li {
 }
 
 /* ******************************************************************************************* */
-/* ******************************** SEZIONE PRINCIPALE   *********************************** */
+/* ********************************** SEZIONE PRINCIPALE   *********************************** */
 /* ******************************************************************************************* */
 
 .sezionePrincipale{
@@ -314,7 +314,14 @@ header nav ul li {
   padding-bottom: 25px;
 }
 
-/* riquadro bianco orizzontale */
+
+
+
+/* **************************** */
+/* **************************** */
+/* riquadro bianco orizzontale  */
+/* **************************** */
+/* **************************** */
 .freeHubSpotCRM{
   width: 95%;
   margin-left: 2.5%;
@@ -351,12 +358,12 @@ header nav ul li {
   float: left;
   /* background-color: yellow; */
 }
-.bloccoDestroSezione .titoloSezione{
+.titoloBloccoDestro{
   margin-top: 2.5%;
   font-size: 22px;
   margin-bottom: 1%;
 }
-.bloccoDestroSezione .testoSezione{
+.testoBloccoDestro{
   font-size: 12.5px;
   margin-bottom: 5%;
 }
@@ -372,7 +379,7 @@ header nav ul li {
   width: 70%;
   border-bottom: 1px solid #e0e6ed;
   float: right;
-  margin-top: 1.8vh;
+  margin-top: 1.1vh;
   margin-right: 0.8%;
 }
 /* colora le spunte d'arancione */
@@ -381,7 +388,13 @@ header nav ul li {
   margin-right: 1%;
 }
 
+
+
+/* **************************** */
+/* **************************** */
 /* SEZIONE 3 COLONNINE BIANCHE  */
+/* **************************** */
+/* **************************** */
 .container3Colonnine{
   width: 95%;
   margin-left: 2.5%;
@@ -396,39 +409,64 @@ header nav ul li {
 }
 
 .colonna img{
-  display: block;
-  width: 40%;
-  height: 262.8px;
-  margin-left: 30%;
+  width: 50%;
+  height: 150px;
+  margin: 10% 25%;
   float: left;
 }
 
 .colonnaCentrale{
   float: left;
   width: 31%;
-  height: 400px;
   background-color: white;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
 }
 
 .colonnaCentrale img{
-  display: block;
-  width: 50%;
-  height: 262.8px;
-  margin-left: 25%;
+  width: 60%;
+  height: 150px;
+  margin: 10% 20%;
   float: left;
 }
 
 .ripienoColonna{
   float: left;
-  width: 70%;
-  margin-left: 15%;
-  background-color: red;
-
+  width: 82%;
+  margin-left: 9%;
 }
 
-/* SEZIONE LEARN */
+.ripienoColonna h3, .ripienoColonna h5{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.ripienoColonna ul li{
+  margin-bottom: 1.5vh;
+}
+
+.testoColonna{
+  font-size: 13px;
+  line-height: 1.8;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e0e6ed;
+}
+
+.ripienoColonna .bottoneArancioneMedio{
+  float: left;
+  margin-top: 12%;
+  margin-bottom: 14%;
+  margin-left: 22.2%;
+  font-size: 15px;
+  padding: 15px 36px;
+}
+
+
+/* **************************** */
+/* **************************** */
+/********** SEZIONE LEARN *******/
+/* **************************** */
+/* **************************** */
 .sezioneLearn{
   background-image: linear-gradient(45deg, #00a4bd, #00bda5)
 }
@@ -456,10 +494,38 @@ header nav ul li {
 .paragrafoBianco{
   font-size: 17.5px;
   line-height: 1.8;
-
 }
 
-.grigliaLearn{
+.elementoGrigliaLearn{
   width: 25%;
   float: left;
+}
+
+.numeroLearn{
+  display: inline-block;
+  font-size: 4vw;
+}
+
+
+
+
+/* **************************** */
+/* **************************** */
+/* SEZIONE START  */
+/* **************************** */
+/* **************************** */
+.sezioneStart{
+  background-color: white;
+}
+
+
+
+
+/* **************************** */
+/* ******************************************************************************************* */
+/* ***************************************** FOOTER   **************************************** */
+/* ******************************************************************************************* */
+/* **************************** */
+footer{
+  background-color: #33475b;
 }
