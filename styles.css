@@ -11,7 +11,7 @@
 /* ************************* O CHE SI RIPETE, FACILE DA RIPESCARE**************************** */
 /* ******************************************************************************************* */
 
-.clearfix{
+.clearfix:after{
   content: "";
   display: table;
   clear: both;
@@ -255,7 +255,7 @@ header nav ul li {
  .backgroundSottoHeader{
   width: 1240px;
   height: 100%;
-  left: 23%;
+  left: 9%;
   background-image: url(img/jumbotron.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -361,14 +361,19 @@ header nav ul li {
   margin-bottom: 5%;
 }
 
+.bloccoDestroSezione .popular{
+  font-size: 1vw;
+  margin-bottom: 5%;
+}
+
 /* serve solo per aggiungere la decorazione accanto a Popular Features */
 .soloPerBordo{
   display: inline;
   width: 70%;
   border-bottom: 1px solid #e0e6ed;
   float: right;
-  margin-top: 9px;
-  margin-right: 15px;
+  margin-top: 1.8vh;
+  margin-right: 0.8%;
 }
 /* colora le spunte d'arancione */
 .fas.fa-check-circle{
@@ -385,12 +390,9 @@ header nav ul li {
 }
 
 .colonna{
-  display: inline-block;
+  float: left;
   width: 31%;
-  height: 400px;
   background-color: white;
-
-
 }
 
 .colonna img{
@@ -402,13 +404,12 @@ header nav ul li {
 }
 
 .colonnaCentrale{
-  display: inline-block;
+  float: left;
   width: 31%;
   height: 400px;
   background-color: white;
-  margin-left: 3.0%;
-  margin-right: 3.0%;
-
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .colonnaCentrale img{
