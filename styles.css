@@ -432,8 +432,8 @@ header nav ul li {
 
 .ripienoColonna{
   float: left;
-  width: 82%;
-  margin-left: 9%;
+  width: 76%;
+  margin-left: 12%;
 }
 
 .ripienoColonna h3, .ripienoColonna h5{
@@ -537,15 +537,65 @@ header nav ul li {
 /* **************************** */
 /* **************************** */
 .sezioneStart{
+  background-color: yellow;
+  width:70%;
+  margin-left: 15%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* sezione start alto */
+.sezioneStartAlto{
+  background: red;
+}
+
+.sezioneStartFloatSinistra{
+  float: left;
+}
+
+.sezioneStartMarcheFloat{
+  float: right;
+}
+
+/* sezione start basso */
+.sezioneStartBasso{
+  background-color: lightblue;
+}
+
+.sezioneStartTestoConBottone{
+  float: left;
+  margin-top: 23px;
+  width: 35vw;
+}
+
+.titoloSezioneStartBasso{
+  font-size: 35px;
+  padding-bottom: 25px;
+}
+
+.sezioneStartTestoConBottone .testoSezione{
+  margin-bottom: 22px;
+  width: 84%;
   background-color: white;
 }
 
+.sezioneStartTestoConBottone .testoSottoBottone{
+  /* margin-top: 22px; lo esplicito per ricordarmelo ma già assegnato a .testoSottoBottone*/
+  font-size: 11px;
+  width: 100%;
+  color: #516f90;
+}
 
-/* **************************** */
+.sezioneStartBasso img{
+  float: right;
+  height: 25vw;
+}
+
 /* ******************************************************************************************* */
 /* ***************************************** FOOTER   **************************************** */
 /* ******************************************************************************************* */
-/* **************************** */
+
 footer{
   background-color: #33475b;
+  color: white;
 }
