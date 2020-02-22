@@ -472,17 +472,17 @@ header nav ul li {
 }
 
 .containerSezioneLearn{
-  width:70%;
-  margin-left: 15%;
+  width:66%;
+  margin-left: 17%;
   padding-top: 100px;
-  padding-bottom: 150px;
+  padding-bottom: 130px;
   text-align: center;
   color: white;
 }
 
 .testoSezioneLearn{
-  width: 70%;
-  margin-left: 15%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .titoloBianco{
@@ -494,8 +494,11 @@ header nav ul li {
 .paragrafoBianco{
   font-size: 17.5px;
   line-height: 1.8;
+  width: 90%;
+  margin-left: 5%;
 }
 
+/* da qui partono le classi delle celle della griglia */
 .elementoGrigliaLearn{
   width: 25%;
   float: left;
@@ -503,10 +506,29 @@ header nav ul li {
 
 .numeroLearn{
   display: inline-block;
-  font-size: 4vw;
+  font-size: 3.5vw;
 }
 
+/* aggiunge il bordo decorativo destro agli elementi che hanno questa classe */
+.elementoGrigliaLearn {
+  border-right: 1px white solid;
+}
 
+/* rimuove il bordo agli elementi che non devono averlo */
+.noBordoRight{
+  border-right: none;
+}
+
+.primaRiga{
+  margin-top: 10vh;
+  padding-top: 2vh;
+  padding-bottom: 4vh;
+  border-bottom: white solid 1px;
+}
+.secondaRiga{
+  padding-top: 4vh;
+  padding-bottom: 2vh;
+}
 
 
 /* **************************** */
@@ -517,8 +539,6 @@ header nav ul li {
 .sezioneStart{
   background-color: white;
 }
-
-
 
 
 /* **************************** */
