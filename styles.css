@@ -636,3 +636,9 @@ footer{
   background-color: #33475b;
   color: white;
 }
+
+.containerGlobaleFooter{
+  width:68%;
+  margin-left: 16%;
+  background-color: red; 
+}
