@@ -537,29 +537,66 @@ header nav ul li {
 /* **************************** */
 /* **************************** */
 .sezioneStart{
-  background-color: yellow;
-  width:70%;
-  margin-left: 15%;
-  padding-top: 100px;
+  width:68%;
+  margin-left: 16%;
+  padding-top: 130px;
   padding-bottom: 100px;
+  /* debug */
+  /* background-color: yellow; */
 }
 
 /* sezione start alto */
 .sezioneStartAlto{
-  background: red;
+  /* debug */
+  /* background-color: red; */
+  padding-bottom: 120px;
 }
 
 .sezioneStartFloatSinistra{
   float: left;
+  width: 20vw;
 }
 
+/* numero a sinistra delle marche */
+.numeroCustomers{
+  font-size: 50px;
+}
+
+/* testo a sinistra delle marche */
+.testoSezioneStartAlto{
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* fa il bold al 120 */
+.testoSezioneStartAlto span{
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/* contenitore delle imamgini di marche */
 .sezioneStartMarcheFloat{
   float: right;
+  width: 37vw;
+  /* debug */
+  /* background-color: green; */
+}
+
+/* gestione immagine di marche */
+.sezioneStartMarcheFloat img{
+  float: left;
+  width: 110px;
+  margin-right: 2.5vw;
+  margin-top: 15px;
+  margin-bottom: 40px;
 }
 
 /* sezione start basso */
 .sezioneStartBasso{
-  background-color: lightblue;
+  /* debug */
+  /* background-color: lightblue; */
+  padding-bottom: 40px;
 }
 
 .sezioneStartTestoConBottone{
@@ -576,19 +613,19 @@ header nav ul li {
 .sezioneStartTestoConBottone .testoSezione{
   margin-bottom: 22px;
   width: 84%;
-  background-color: white;
 }
 
-.sezioneStartTestoConBottone .testoSottoBottone{
+.testoSottoBottone{
   /* margin-top: 22px; lo esplicito per ricordarmelo ma già assegnato a .testoSottoBottone*/
-  font-size: 11px;
+  font-size: 12.5px;
   width: 100%;
   color: #516f90;
 }
 
+/* immagine donna */
 .sezioneStartBasso img{
   float: right;
-  height: 25vw;
+  height: 27vw;
 }
 
 /* ******************************************************************************************* */
