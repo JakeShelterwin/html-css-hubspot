@@ -76,7 +76,8 @@ a {
   width: 100%;
   height: 84px;
   padding: 18px 275px;
-  border-bottom: 1px solid #cbd6e2;;
+  border-bottom: 1px solid #cbd6e2;
+  /* Se non esplicito a 0 un valore in altezza e larghezza può succedere casino come in questo caso ecco perché Sono esplicitati */
   top: 0;
   left: 0;
   position: fixed;
