@@ -615,9 +615,12 @@ header nav ul li {
   width: 84%;
 }
 
-.testoSottoBottone{
-  /* margin-top: 22px; lo esplicito per ricordarmelo ma già assegnato a .testoSottoBottone*/
+
+.testoSottoBottoneStart{
   font-size: 12.5px;
+  margin-top: 22px;
+  font-weight: bold;
+  line-height: 1.8;
   width: 100%;
   color: #516f90;
 }
@@ -640,5 +643,108 @@ footer{
 .containerGlobaleFooter{
   width:68%;
   margin-left: 16%;
-  background-color: red; 
+  /* debug */
+  /* background-color: red; */
+}
+
+/* CONTAINER PARTE SUPERIORE */
+
+.containerInAltoFooter{
+  padding-top: 100px;
+}
+
+.colonnaFooter{
+  float: left;
+  width: 25%;
+}
+
+.colonnaFooter li{
+  padding-top: 14px;
+  padding-bottom: 13px;
+}
+
+/* colora i link all'interno delle colonne */
+.colonnaFooter li a{
+  color: #cbd6e2;
+}
+
+/* colora i link quando si fa hover */
+.colonnaFooter li:hover .hoverCeleste{
+  color: #7fd1de;
+
+}
+
+.bottoneFooter{
+  background-color: white;
+  font-size: 13px;
+  margin-top: 5px;
+  margin-bottom: 12px;
+  /* il primo valore indiga il padding top e bottom il secondo left e right */
+  padding: 12.5px 15px;
+  border-radius: 3px;
+}
+
+/* colora le icone social come il resto della colonna */
+.hoverCeleste.fab{
+  color: #cbd6e2;
+  font-size: 28px;
+  padding-right: 1vw;
+}
+
+/* colora le icone social quando si fa hover */
+.hoverCeleste:hover{
+  color: #7fd1de;
+
+}
+
+.lingueDisponibili{
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding: 36px 0;
+  /* debug */
+  /* background-color: yellow; */
+}
+
+.lingueDisponibili a{
+  padding-left: 11px;
+  padding-right: 23px;
+  color: #cbd6e2;
+  /* debug */
+  /* background-color: red; */
+}
+
+/* quando faccio over su span colora i link di questo celestino */
+.lingueDisponibili span:hover a{
+  color: #7fd1de;
+}
+
+/* FOOTER PARTE INFERIORE */
+
+.containerBassoFooter{
+  border-top: 1px solid #7c98b6;
+  padding-top: 5vh;
+  padding-bottom: 6vh;
+}
+
+/* LOGHETTI E CREDITI Float sulla sinistra */
+.loghettoCrediti{
+  float: left;
+  color: #cbd6e2;
+}
+
+.loghettoCrediti p {
+  font-size: 14px;
+  padding-top: 0.8vh;
+}
+
+/* Robe legali float sulla destra */
+.legalStuff p{
+  display: inline-block;
+  float: right;
+  padding-top: 1vh;
+  padding-right: 2.5vw;
+}
+.legalStuff a{
+  color: #cbd6e2;
 }
