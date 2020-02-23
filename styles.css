@@ -640,6 +640,7 @@ footer{
   color: white;
 }
 
+
 .containerGlobaleFooter{
   width:68%;
   margin-left: 16%;
@@ -668,11 +669,42 @@ footer{
   color: #cbd6e2;
 }
 
-/* colora i link quando si fa hover */
-.colonnaFooter li:hover .hoverCeleste{
+/* quando si fa hover sugli elementi li colora i link che hanno la classe .hoverCelesteColonneFooter */
+li:hover .hoverCelesteColonneFooter{
   color: #7fd1de;
-
 }
+
+/* gestisce l'hover dei link non in colonna tranne le .lingueDisponibili*/
+p:hover .hoverCelesteAltro {
+    color: #7fd1de;
+}
+
+/* GESTISCE L'EFFETTO A SCOMPARSA NELL'ULTIMA COLONNA */
+
+/* nasconde l'iconcina della checkbox */
+input[type=checkbox]{
+  /* meglio di visibility o opacity perché display none la toglia dal flusso */
+    display: none;
+}
+
+/* nasconde dal flusso l'elemento con la classe nascondino */
+.nascondino{
+    display: none;
+    padding-top: 14px;
+}
+
+/* da ai p di nascondino lo stesso padding degli elementi LI della colonna */
+.nascondino p{
+  padding-top: 14px;
+  padding-bottom: 13px;
+  font-size: 12px;
+}
+
+/* ~ Selettore CSS che seleziona ogni elemento con la classe .nascondino SOLO SE prima nel codice c'è un elemento input di tipo checkbox che ANCHE è checked*/
+input[type=checkbox]:checked ~ .nascondino{
+    display: block;
+}
+/* FINE EFFETTO A SCOMPARSA DELL'ULTIMA COLONNA */
 
 .bottoneFooter{
   background-color: white;
@@ -685,16 +717,15 @@ footer{
 }
 
 /* colora le icone social come il resto della colonna */
-.hoverCeleste.fab{
+.iconeSocial.fab{
   color: #cbd6e2;
   font-size: 28px;
   padding-right: 1vw;
 }
 
-/* colora le icone social quando si fa hover */
-.hoverCeleste:hover{
-  color: #7fd1de;
-
+/* Quando si fa hover sulle icone social le colora come gli altri link  */
+.iconeSocial.fab:hover {
+    color: #7fd1de;
 }
 
 .lingueDisponibili{
