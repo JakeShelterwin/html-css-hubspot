@@ -510,6 +510,10 @@ header nav ul li {
   font-size: 3.5vw;
 }
 
+.testoLearn {
+  font-size: 0.92vw;
+}
+
 /* aggiunge il bordo decorativo destro agli elementi che hanno questa classe */
 .elementoGrigliaLearn {
   border-right: 1px white solid;
